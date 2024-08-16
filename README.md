@@ -8,11 +8,6 @@ This project implements a two-stage detection system using YOLOv8 models for per
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -42,22 +37,37 @@ This project implements a two-stage detection system using YOLOv8 models for per
 
 ## Project Structure 
     ```
-    person-ppe-detection/
-    ├── data/
-    │   ├── raw/                # Raw dataset
-    │   ├── processed/          # Processed dataset for training
-    │   └── annotations/        # Converted YOLO annotations
-    ├── models/
-    │   ├── person_detection/   # Person detection model weights
-    │   └── ppe_detection/      # PPE detection model weights
-    ├── scripts/
-    │   ├── pascal_to_yolo.py   # Script to convert Pascal VOC to YOLO format
-    │   ├── process_data.py     # Script to process data for PPE model training
-    │   └── train.py            # Training script
-    ├── src/
-    │   ├── data_utils.py       # Utilities for data processing
-    │   ├── inference.py        # Inference pipeline
-    │   └── visualization.py    # Utilities for result visualization
-    ├── config.yaml             # Configuration file
-    ├── requirements.txt        # Project dependencies
-    └── README.md               # This file
+    Syook/
+      │
+      ├── cropped_yolodataset/
+      │   ├── test/
+      │   ├── train/
+      │   ├── valid/
+      │   └── data.yaml
+      │
+      ├── datasets/
+      │   ├── images/
+      │   ├── labels/
+      │   ├── classes.txt
+      │
+      ├── finaloutput/
+      │
+      └── yolodataset/
+      ├──    test/
+      │         ├── images/
+      │         └── labels/
+      ├──    train/
+      │         ├── images/
+      │         └── labels/
+      ├──    valid/
+      │         ├── images/
+      │         └── labels/
+      ├──    data.yaml
+      └──    yolov8n.pt
+    ├── best.pt            # Configuration file
+    ├── bestppe.pt       # Project dependencies
+    ├── pascaslVOC_to_yolo.py            # Configuration file
+    ├── syook.ipynb  
+    ├── syookcrop.ipynb  
+    ├── ppe_dataset_generation.ipynb  
+    └── inference.py               # This file
