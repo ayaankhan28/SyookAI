@@ -4,6 +4,12 @@ Team Member: vijay
 Team Member: raj
 Brilliance Labs
 
+## Requirements
+To run this project, you'll need the following Python packages:
+
+- Python 3.x
+- pip (Python package installer)
+
 ## License
 
 MIT License
