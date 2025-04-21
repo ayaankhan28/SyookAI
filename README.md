@@ -1,17 +1,62 @@
-Founder: Ayaan Khan
-Cofounder: Safdar Khan
-Team Member: vijay
-Team Member: raj
-Brilliance Labs
+# SyookAI 🤖
 
-## Requirements
-To run this project, you'll need the following Python packages:
+SyookAI is an artificial intelligence project developed at Brilliance Labs, focusing on computer vision and deep learning applications.
+
+## Team 👥
+
+- **Founder:** Ayaan Khan
+- **Cofounder:** Safdar Khan
+- **Team Members:**
+  - Vijay
+  - Raj
+
+## Project Overview 📝
+
+SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
+
+## Technical Requirements 🛠️
+
+### Prerequisites
 
 - Python 3.x
 - pip (Python package installer)
 
-## License
+### Dependencies
 
+```bash
+opencv-python  # Computer vision tasks
+ultralytics   # YOLO implementation
+argparse      # Command-line argument parsing
+torch         # PyTorch deep learning framework
+tensorflow    # TensorFlow deep learning framework
+```
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ayaankhan28/SyookAI.git
+cd SyookAI
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage 🚀
+
+The project contains multiple Python scripts for different functionalities:
+
+- `inference.py` - Main inference script for model predictions
+
+Please refer to individual script documentation for specific usage instructions.
+
+## License 📄
+
+This project is licensed under the MIT License - see below for details:
+
+```
 MIT License
 
 Copyright (c) 2024 Ayaan Khan
@@ -33,3 +78,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+## Contact 📧
+
+For any queries or contributions, please reach out to the project maintainers or create an issue in the GitHub repository.
+
+---
+Made with ❤️ at Brilliance Labs
