@@ -3,14 +3,13 @@
 SyookAI is an artificial intelligence project developed at Brilliance Labs, focusing on computer vision and deep learning applications.
 
 ## Team 👥
-
 - **Founder:** Ayaan Khan
 - **Cofounder:** Safdar Khan
 - **Team Members:**
   - Vijay
   - Raj
 
-## Project Overview 📝
+## Project Overview 🔝
 
 SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
 
@@ -25,7 +24,7 @@ SyookAI is built using modern AI frameworks and computer vision libraries to del
 
 ```bash
 opencv-python  # Computer vision tasks
-ultralytics   # YOLO implementation
+ultralytrics   # YOLO implementation
 argparse      # Command-line argument parsing
 torch         # PyTorch deep learning framework
 tensorflow    # TensorFlow deep learning framework
@@ -52,7 +51,7 @@ The project contains multiple Python scripts for different functionalities:
 
 Please refer to individual script documentation for specific usage instructions.
 
-## License 📄
+## License 🔄
 
 This project is licensed under the MIT License - see below for details:
 
@@ -79,6 +78,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## Future Plans 🎯
+
+We have to build the worlds first robo glass company
 
 ## Contact 📧
 
