@@ -13,25 +13,27 @@ SyookAI is an artificial intelligence project developed at Brilliance Labs, focu
 
 SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
 
-## Technical Requirements 🛠️
+## Technical Requirements 👨‍💻
 
 ### Prerequisites
 
 - Python 3.x
 - pip (Python package installer)
+- Docker (optional)
 
 ### Dependencies
 
 ```bash
 opencv-python  # Computer vision tasks
-ultralytrics   # YOLO implementation
-argparse      # Command-line argument parsing
-torch         # PyTorch deep learning framework
-tensorflow    # TensorFlow deep learning framework
+ultralytics    # YOLO implementation
+argparse       # Command-line argument parsing
+torch          # PyTorch deep learning framework
+tensorflow     # TensorFlow deep learning framework
 ```
 
 ### Installation
 
+#### Standard Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/ayaankhan28/SyookAI.git
@@ -41,6 +43,26 @@ cd SyookAI
 2. Install required packages:
 ```bash
 pip install -r requirements.txt
+```
+
+#### Docker Installation 🐳
+
+1. Build the Docker image:
+```bash
+docker build -t syookai .
+```
+
+2. Run the container:
+```bash
+docker run -it --name syookai-container syookai
+```
+
+### Docker Compose Setup
+
+You can also use Docker Compose to run the application:
+
+```bash
+docker-compose up --build
 ```
 
 ## Usage 🚀
@@ -83,7 +105,7 @@ SOFTWARE.
 
 We have to build the worlds first robo glass company
 
-## Contact 📧
+## Contact 🔧
 
 For any queries or contributions, please reach out to the project maintainers or create an issue in the GitHub repository.
 
