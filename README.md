@@ -29,6 +29,7 @@ ultralytics    # YOLO implementation
 argparse       # Command-line argument parsing
 torch          # PyTorch deep learning framework
 tensorflow     # TensorFlow deep learning framework
+mediapipe      # Google's ML solutions for media processing
 ```
 
 ### Installation
@@ -65,7 +66,7 @@ You can also use Docker Compose to run the application:
 docker-compose up --build
 ```
 
-## Usage 🚀
+## Usage 👀
 
 The project contains multiple Python scripts for different functionalities:
 
@@ -101,7 +102,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Future Plans 🎯
+## Future Plans 🏯
 
 We have to build the worlds first robo glass company
 
