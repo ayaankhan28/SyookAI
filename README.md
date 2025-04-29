@@ -1,10 +1,10 @@
-## Team 🏃
+## Team 👏
 - **Founder:** Ayaan Khan
 - **Cofounders:** 
   - Safdar Khan
   - Aditya Kumar
 - **Team Members:**
-  - Vijay
+  - Vijay 
   - Raj
 
 ## Project Overview 🔝
@@ -17,7 +17,7 @@ SyookAI is built using modern AI frameworks and computer vision libraries to del
 
 ```bash
 opencv-python    # Computer vision tasks
-ultralytics      # YOLO implementation
+ultraltyics      # YOLO implementation
 argparse         # Command-line argument parsing
 torch           # PyTorch deep learning framework
 tensorflow      # TensorFlow deep learning framework
@@ -43,7 +43,36 @@ cd SyookAI
 pip install -r requirements.txt
 ```
 
-## Usage 🔀
+### Developer Installation Steps
+
+1. Set up a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install development dependencies:
+```bash
+pip install -r requirements-dev.txt  # Contains additional testing and development packages
+```
+
+3. Install pre-commit hooks:
+```bash
+pre-commit install
+```
+
+4. Set up environment variables:
+```bash
+cp .env.example .env  # Copy example environment file
+# Edit .env with your configurations
+```
+
+5. Run tests:
+```bash
+pytest
+```
+
+## Usage 🔐
 
 The project contains multiple Python scripts for different functionalities:
 
@@ -51,39 +80,11 @@ The project contains multiple Python scripts for different functionalities:
 
 Please refer to individual script documentation for specific usage instructions.
 
-## License 🔄
-
-This project is licensed under the MIT License - see below for details:
-
-```
-MIT License
-
-Copyright (c) 2024 Ayaan Khan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
 ## Future Plans 🖯
 
 We have to build the worlds first robo glass company
 
-## Contact 📟
+## Contact 🗟
 
 For any queries or contributions, please reach out to the project maintainers or create an issue in the GitHub repository.
 
