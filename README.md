@@ -1,4 +1,4 @@
-## Team 🏅
+## Team 👏
 - **Founder:** Ayaan Khan
 - **Cofounders:** 
   - Safdar Khan
@@ -11,23 +11,24 @@
 
 SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
 
-## Technical Requirements 🚨⌛
+## Technical Requirements 🚨⋛
 
 ### Prerequisites
 
 - Python 3.x
 - pip (Python package installer)
 - Node.js
+- Docker 🐳
 
 ### Dependencies
 
 ```bash
 opencv-python   # Computer vision tasks
-ultralytrics    # YOLO implementation
-argparse       # Command-line argument parsing
-torch          # PyTorch deep learning framework
-tensorflow     # TensorFlow deep learning framework
-mediapipe      # Google's ML solutions for media processing
+ultralytics     # YOLO implementation
+argparse        # Command-line argument parsing
+torch           # PyTorch deep learning framework
+tensorflow      # TensorFlow deep learning framework
+mediapipe       # Google's ML solutions for media processing
 ```
 
 ### Installation
@@ -44,7 +45,7 @@ cd SyookAI
 pip install -r requirements.txt
 ```
 
-## Usage 🐀
+## Usage 💀
 
 The project contains multiple Python scripts for different functionalities:
 
@@ -80,7 +81,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Future Plans 🏯
+## Future Plans 👯
 
 We have to build the worlds first robo glass company
 
