@@ -7,11 +7,11 @@
   - Vijay
   - Raj
 
-## Project Overview 🔝
+## Project Overview 📝
 
 SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
 
-## Technical Requirements 🪨⚛
+## Technical Requirements 👨‍💻
 
 ### Prerequisites
 
@@ -20,6 +20,7 @@ SyookAI is built using modern AI frameworks and computer vision libraries to del
 - Node.js
 - Docker 🐳
 - Modern web browser (Chrome/Firefox/Safari) 🌐
+- PyCharm IDE (Preferred) 🚀
 
 ### Dependencies
 
@@ -47,7 +48,7 @@ cd SyookAI
 pip install -r requirements.txt
 ```
 
-## Usage 💀
+## Usage 📀
 
 The project contains multiple Python scripts for different functionalities:
 
@@ -55,7 +56,7 @@ The project contains multiple Python scripts for different functionalities:
 
 Please refer to individual script documentation for specific usage instructions.
 
-## License 🔄
+## License 📄
 
 This project is licensed under the MIT License - see below for details:
 
@@ -83,11 +84,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Future Plans 🏯
+## Future Plans 👯
 
 We have to build the worlds first robo glass company
 
-## Contact 🔗
+## Contact 📗
 
 For any queries or contributions, please reach out to the project maintainers or create an issue in the GitHub repository.
 
