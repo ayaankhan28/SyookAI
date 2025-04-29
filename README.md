@@ -11,7 +11,7 @@
 
 SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
 
-## Technical Requirements 🚨☻
+## Technical Requirements 🪨⚛
 
 ### Prerequisites
 
@@ -19,6 +19,7 @@ SyookAI is built using modern AI frameworks and computer vision libraries to del
 - pip (Python package installer)
 - Node.js
 - Docker 🐳
+- Modern web browser (Chrome/Firefox/Safari) 🌐
 
 ### Dependencies
 
