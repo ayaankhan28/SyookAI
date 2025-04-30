@@ -6,19 +6,20 @@
 - **Team Members:**
   - Vijay 
   - Raj
+  - Kevin
 
-## Project Overview 🔝
+## Project Overview 📝
 
 SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
 
-## Technical Requirements 💨‍💋
+## Technical Requirements 👨‍💻
 
 ### Dependencies
 
 ```bash
-opencv-python    # Computer vision tasks
-ultraltyics      # YOLO implementation
-argparse         # Command-line argument parsing
+opencv-python   # Computer vision tasks
+ultralytics     # YOLO implementation
+argparse        # Command-line argument parsing
 torch           # PyTorch deep learning framework
 tensorflow      # TensorFlow deep learning framework
 mediapipe       # Google's ML solutions for media processing
@@ -72,7 +73,7 @@ cp .env.example .env  # Copy example environment file
 pytest
 ```
 
-## Usage 🔐
+## Usage 📐
 
 The project contains multiple Python scripts for different functionalities:
 
@@ -80,13 +81,13 @@ The project contains multiple Python scripts for different functionalities:
 
 Please refer to individual script documentation for specific usage instructions.
 
-## Future Plans 🖯
+## Future Plans 👯
 
 We have to build the worlds first robo glass company
 
-## Contact 🗟
+## Contact 🗿
 
 For any queries or contributions, please reach out to the project maintainers or create an issue in the GitHub repository.
 
 ---
-Made with ❴❵ at Brilliance Labs
+Made with ♴♵ at Brilliance Labs
