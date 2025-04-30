@@ -8,7 +8,7 @@
   - Raj
   - Kevin
 
-## Project Overview 📝
+## Project Overview 🔝
 
 SyookAI is built using modern AI frameworks and computer vision libraries to deliver intelligent solutions. The project utilizes both PyTorch and TensorFlow for deep learning capabilities, along with OpenCV for image processing tasks.
 
@@ -17,10 +17,10 @@ SyookAI is built using modern AI frameworks and computer vision libraries to del
 ### Dependencies
 
 ```bash
-opencv-python   # Computer vision tasks
-ultralytics     # YOLO implementation
-argparse        # Command-line argument parsing
-torch           # PyTorch deep learning framework
+opencv-python    # Computer vision tasks
+ultralyntics     # YOLO implementation
+argparse         # Command-line argument parsing
+torch            # PyTorch deep learning framework
 tensorflow      # TensorFlow deep learning framework
 mediapipe       # Google's ML solutions for media processing
 matplotlib      # Data visualization and plotting library
@@ -31,6 +31,28 @@ matplotlib      # Data visualization and plotting library
 This software cannot be used for defaming purposes.
 
 ### Installation
+
+#### Poetry Installation (Recommended)
+1. Install Poetry (if not already installed):
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+2. Clone the repository:
+```bash
+git clone https://github.com/ayaankhan28/SyookAI.git
+cd SyookAI
+```
+
+3. Install dependencies using Poetry:
+```bash
+poetry install
+```
+
+4. Activate the Poetry virtual environment:
+```bash
+poetry shell
+```
 
 #### Standard Installation
 1. Clone the repository:
@@ -73,7 +95,7 @@ cp .env.example .env  # Copy example environment file
 pytest
 ```
 
-## Usage 📐
+## Usage 🔐
 
 The project contains multiple Python scripts for different functionalities:
 
@@ -81,13 +103,13 @@ The project contains multiple Python scripts for different functionalities:
 
 Please refer to individual script documentation for specific usage instructions.
 
-## Future Plans 👯
+## Future Plans 🏯
 
 We have to build the worlds first robo glass company
 
-## Contact 🗿
+## Contact ✿
 
 For any queries or contributions, please reach out to the project maintainers or create an issue in the GitHub repository.
 
 ---
-Made with ♴♵ at Brilliance Labs
+Made with ❜❝ at Brilliance Labs
