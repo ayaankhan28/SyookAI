@@ -20,7 +20,7 @@ SyookAI is built using modern AI frameworks and computer vision libraries to del
 opencv-python    # Computer vision tasks
 ultralyntics     # YOLO implementation
 argparse         # Command-line argument parsing
-torch            # PyTorch deep learning framework
+torch           # PyTorch deep learning framework
 tensorflow      # TensorFlow deep learning framework
 mediapipe       # Google's ML solutions for media processing
 matplotlib      # Data visualization and plotting library
@@ -52,6 +52,30 @@ poetry install
 4. Activate the Poetry virtual environment:
 ```bash
 poetry shell
+```
+
+#### Docker Installation
+1. Make sure you have Docker installed on your system. If not, download and install from [Docker's official website](https://www.docker.com/get-started).
+
+2. Clone the repository:
+```bash
+git clone https://github.com/ayaankhan28/SyookAI.git
+cd SyookAI
+```
+
+3. Build the Docker image:
+```bash
+docker build -t syookai .
+```
+
+4. Run the Docker container:
+```bash
+docker run -it --name syookai-container syookai
+```
+
+5. For development with volume mounting (optional):
+```bash
+docker run -it --name syookai-dev -v $(pwd):/app syookai
 ```
 
 #### Standard Installation
@@ -107,9 +131,9 @@ Please refer to individual script documentation for specific usage instructions.
 
 We have to build the worlds first robo glass company
 
-## Contact ✿
+## Contact ✼
 
 For any queries or contributions, please reach out to the project maintainers or create an issue in the GitHub repository.
 
 ---
-Made with ❜❝ at Brilliance Labs
+Made with ♼♽ at Brilliance Labs
