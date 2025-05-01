@@ -8,6 +8,7 @@
   - Raj
   - Kevin
   - main_commit 1
+  - main_commit 2
 
 ## Project Overview 🔝
 
