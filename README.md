@@ -9,6 +9,7 @@
   - Kevin
   - main_commit 1
   - main_commit 2
+  - commit 1
 
 ## Project Overview 🔝
 
