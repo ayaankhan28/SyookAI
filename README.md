@@ -7,6 +7,7 @@
   - Vijay 
   - Raj
   - Kevin
+  - main_commit 1
 
 ## Project Overview 🔝
 
