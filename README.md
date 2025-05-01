@@ -28,6 +28,7 @@ mediapipe       # Google's ML solutions for media processing
 matplotlib      # Data visualization and plotting library
 main-commit 1
 main-commit 2
+commit 1
 ```
 
 ### Legal Restrictions
